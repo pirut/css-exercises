@@ -8,7 +8,18 @@ body {
   font-family: Besley, serif;
 }
 
+.one {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  gap: 8px;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -20,6 +31,7 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+  min-width: 48px;
 }
 
 .logo {
@@ -44,5 +56,9 @@ a {
 }
 
 ul {
+  display: flex;
   list-style-type: none;
+  padding: 0px;
+  margin-left: 8px;
+  gap: 8px;
 }
