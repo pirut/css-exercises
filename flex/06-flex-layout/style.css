@@ -24,7 +24,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
-  padding: 8px 12px;
+  padding: 8px 16px;
 }
 
 input {
@@ -60,7 +60,7 @@ input {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 12px;
+  gap: 16px;
 }
 
 .footer {
